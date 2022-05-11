@@ -40,34 +40,78 @@
         <td>JSON</td>
         <td><a href="{% url 'json' %}" type="button">JSON link</a></td>
     </tr>
-<!--    <tr>-->
-<!--        <td>6</td>-->
-<!--        <td>POST</td>-->
-<!--        <td>-->
-<!--            {% csrf_token %}-->
-<!--            <button onclick="send_post('POST')" type="button">POST request-->
-<!--            </button>-->
-<!--        </td>-->
-<!--    </tr>-->
-<!--    <tr>-->
-<!--        <td>7</td>-->
-<!--        <td>GET</td>-->
-<!--        <td>-->
-<!--            {% csrf_token %}-->
-<!--            <button onclick="send_post('GET')" type="button">GET request-->
-<!--            </button>-->
-<!--        </td>-->
-<!--    </tr>-->
-<!--    <tr>-->
-<!--        <td>8</td>-->
-<!--        <td>DELETE</td>-->
-<!--        <td>-->
-<!--            {% csrf_token %}-->
-<!--            <button onclick="send_post('DELETE')" type="button">DELETE request-->
-<!--            </button>-->
-<!--        </td>-->
-<!--    </tr>-->
+
+
+<!--в данном примере мы будем использовать ajax - ак инструмент отправлять наши requests-->
+
+    <tr>
+        <td>6</td>
+        <td>POST</td>
+        <td>
+            {% csrf_token %}
+            <button onclick="send_post('POST')" type="button">POST request
+            </button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td>GET</td>
+        <td>
+            {% csrf_token %}
+            <button onclick="send_post('GET')" type="button">GET request
+            </button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td>DELETE</td>
+        <td>
+            {% csrf_token %}
+            <button onclick="send_post('DELETE')" type="button">DELETE request
+            </button>
+        </td>
+    </tr>
 </table>
 
 </body>
+
+<!-- после body - т.к. это то что делается за сценой, если нажмем клик на-->
+
+<!-- let request_type = requestString;  - отправляется тип запроса(get,post.delete)-->
+<!-- csrfmiddlewaretoken: '{{ csrf_token }}', - нужен для того что бы сервер знал от кого приходят данные-->
+<!-- url: "{% url "class_view" %}",  - урл к которому хотим достучаться-->
+<!--
+console.log(result) - водим в консоль
+alert(result) - выводим на экран в качестве всплыв окна
+-->
+<!--            url: "{% url "class_view" %}", найдет в urls.py  наш path  и вызовет соответсвующий метод, который вернет ответ-->
+<!--type: redirect - может быть json, file и т.д. - он передается во view  как атрибут  type, а дальше GET.get('type') и.. указываем нашу логику-->
+<script>
+    function send_post(requestString) {
+        let request_type = requestString;
+
+        $.ajax({
+            method: request_type,
+            data: {
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+                this_is: request_type,
+                type: "redirect",
+            },
+            url: "{% url "class_view" %}",
+            success: function (result) {
+                console.log(result)
+                alert(result)
+            },
+            error: function (result) {
+                console.log(result)
+            }
+        })
+        ;
+    }
+
+
+</script>
+
 </html>

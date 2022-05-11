@@ -1,11 +1,12 @@
 from django.http import HttpResponse, FileResponse, HttpResponseNotAllowed, HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
 from django.templatetags.static import static
+from django.views.generic import View
 
 
 def main(request):
     print(request)
-    # return HttpResponse('<button>My button of html</button>')  # просто на страничке будет отображаться одна кнопка
+    # return HttpRe sponse('<button>My button of html</button>')  # просто на страничке будет отображаться одна кнопка
     return render(request, 'main.html')  # подгрузит целую страницу со всеми ниже функциями в одной(описываем структуру в templates)
 
 
@@ -30,5 +31,42 @@ def not_allowed(request):
 
 def json(request):
     return JsonResponse({i: i * i for i in range(1, 20)}, safe=False)  # safe -
+
+
+# Пример реализиций Function vs Class
+def my_view_example(request):
+    if request.method == "GET":
+        # <view logic>
+        return HttpResponse('result')
+
+
+class MyViewExample(View):
+    # метод dispatch() определяет какой метод вызвался клиентом из доступных(get,post... - можно внутри View эт просмотреть).
+    # если пришел запрос методом post, а в этом классе он не определен, то тогда будет ошибка
+    def get(self, request):
+        # <view logic>
+        return HttpResponse('result')
+
+
+class MyView(View):
+
+    def get(self, request):
+        print(request.GET)
+        # >>> <QueryDict: {'csrfmiddlewaretoken': ['eO03CjCqIS4FFdcK7Tp4LDdXrTvTNdsCX321xHXRajnnmRmVLDdWugpzI809bNyf'], 'this_is': ['POST'], 'type': ['json']}>
+        """добавим логику"""
+        if request.GET.get('type') == "file":
+            return FileResponse(open(static('img/001.jpg'), 'rb+'))
+        elif request.GET.get('type') == "json":  # alert ajax  не разрешает выводить json или редиректить, но иснфу мы можем получить
+            return JsonResponse(list({i: i * i for i in range(1, 20)}), safe=False)
+        elif request.GET.get('type') == "redirect":
+            # return HttpResponseRedirect('https://www.google.com/')  #  не подойдет, потому что использует какуе-то кофнидициальность
+            return HttpResponseRedirect('http://127.0.0.1:8000/lesson_3/main/')# но мы всегда можем редирекнуть юзера по нашему сайту
+        else:
+            return HttpResponseNotAllowed('You shall not pass!!!2222')
+        # return HttpResponse('This is get')
+
+    def post(self, request):
+        print(request.POST)
+        return HttpResponse('This is post')
 
 

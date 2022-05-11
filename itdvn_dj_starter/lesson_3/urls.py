@@ -8,4 +8,8 @@ urlpatterns = [
     path('main/redirect/', views.redirect, name='redirect'),
     path('main/not_allowed/', views.not_allowed, name='not_allowed'),
     path('main/json/', views.json, name='json'),
+
+    path('class-view/', views.MyView.as_view(), name='class_view')
+    # если мы наш класс от views.py наследуем от View, то наш класс будет иметь метод as_view(),
+    # после чего вызывается метод dispatch() - того что бы определить какой метод вызвался()
 ]
