@@ -3,11 +3,22 @@ from django.shortcuts import render
 from django.templatetags.static import static
 from django.views.generic import View
 
+from django.template import loader
+
 
 def main(request):
-    print(request)
-    # return HttpRe sponse('<button>My button of html</button>')  # просто на страничке будет отображаться одна кнопка
-    return render(request, 'main.html')  # подгрузит целую страницу со всеми ниже функциями в одной(описываем структуру в templates)
+    test_template = loader.render_to_string('template_example.html',
+                                            context={'test_key': "test_value"}
+                                            )
+    return HttpResponse(test_template)
+
+    # 2ой промежуточный способ
+    # test_template = loader.get_template(template_name='template_example.html')
+    # print(test_template, type(test_template), '\n', test_template.render)
+    # return HttpResponse(test_template.render())
+
+    # 3ий начальный способ
+    # return render(request, 'template_example.html')  # подгрузит целую страницу со всеми ниже функциями в одной(описываем структуру в templates)
 
 
 def text(request):

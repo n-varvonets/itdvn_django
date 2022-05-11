@@ -120,7 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/home/nick/PycharmProjects/itdvn_django/itdvn_dj_starter/lesson_3/static/'
+STATIC_URL = '/home/nick/PycharmProjects/itdvn_django/itdvn_dj_starter/lesson_4/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

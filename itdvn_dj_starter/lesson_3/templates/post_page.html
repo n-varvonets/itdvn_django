@@ -1,0 +1,35 @@
+{% if latest_question_list %}
+<!-- проверяем если наш список(true) не пуст, то заходим в условие -->
+
+    <ul>
+
+        {% comment "some commets" %}
+<!--  ниже пример коментирования кода. Т.е. все что в блоке comment не будет использовать и читаться как код и \
+ не будет отображаться, т.к. любой тег УЧИТЫВАЕТСЯ при чтении и его нужно через comment не использовать \ -->
+<!--        {% for question in latest_question_list|dictsort:"id" %} - сортировка по id -->
+        {% endcomment %}
+
+        {% for question in latest_question_list %}
+            <li>
+                <!-- выводим наш вопрос с ссылкой для получения более детальной инфы по нашему посту через id поста -->
+                <a href="/lesson_3/post/{{ question.id }}/">
+                    {{ question.question_text }}</a>
+
+                {% comment "как и здесь" %} {{ question.question_text|default:"Нет вопроса" }}</a> {% endcomment %}
+
+            </li>
+        {% endfor %}
+
+<!--  на сайте добавили еще один вопрос, который будет выбираться случайно из нашего списка вопросов      -->
+        <li>
+            <a>{{ latest_question_list|random }}</a>
+        </li>
+
+    </ul>
+{% else %}
+    <p>Список вопросов пуст.</p>
+{% endif %}
+
+
+
+
