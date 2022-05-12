@@ -128,8 +128,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/home/nick/PycharmProjects/itdvn_django/itdvn_dj_starter/lesson_4/static/'
-
+MEDIA_ROOT = '/home/nick/PycharmProjects/itdvn_django/itdvn_dj_starter/lesson_5/static/tmp/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
