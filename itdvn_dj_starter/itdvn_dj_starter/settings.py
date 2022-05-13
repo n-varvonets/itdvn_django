@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'lesson_3',
     'lesson_5',
     'lesson_7',
+    'lesson_8',
 ]
 
 MIDDLEWARE = [
@@ -60,7 +61,7 @@ ROOT_URLCONF = 'itdvn_dj_starter.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['lesson_7', 'lesson_3', 'lesson_8'],  # находит в apps все папки templates и регистрирует названия файлов для переиспользоваеия
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
