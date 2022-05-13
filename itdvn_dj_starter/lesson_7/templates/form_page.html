@@ -1,0 +1,12 @@
+{% comment "Так форма для views.my_form_GET,т.е. для request.GET, но это не подходит для отправки пароля из формы, поэтому изменим на пост нашу форму" %}
+<form>
+    {{ form.as_p }}
+    <button type="submit">Submit form</button>
+</form>
+{% endcomment %}
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit form</button>
+</form>

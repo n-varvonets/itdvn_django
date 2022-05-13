@@ -1,0 +1,1274 @@
+[
+  {
+    "dealroom_id": 894779,
+    "name": "Otherwise Insurance",
+    "profile_url": "https://app.dealroom.co/companies/otherwise_insurance",
+    "website": "http://www.otherwise.fr",
+    "logo": "https://s3-eu-west-1.amazonaws.com/dealroom-images/f5/MTAwOjEwMDpjb21wYW55QHMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tL2RlYWxyb29tLWltYWdlcy8yMDE3LzAyLzA3Lzg4ZDIzNDgxYjRiZWVlMzEwNjZiZTU0ZGIwY2FjNDM5.jpg",
+    "tagline": "Peer-to-peer broker",
+    "address": "46, Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "hq_region": "Europe",
+    "hq_country": "France",
+    "hq_city": "Paris",
+    "latitude": 48.8706063,
+    "longitude": 2.3566958,
+    "locations": "Europe;France;Paris;Île-de-France",
+    "custom_hq_regions": "Region Parisienne;New Palo Alto;Entente Cordiale;Greater Paris (Grand Paris);Europe incl Israel;Europe;European Union + UK;EU27;European Union",
+    "founding_location": null,
+    "investors": "Agoranov;360 Capital Partners;Bpifrance;Mutualia;Avolta Partners",
+    "each_investors_types": "accelerator;venture_capital;venture_capital;corporate;advisor",
+    "lead_investors": null,
+    "total_funding": 3.6,
+    "last_round": "EARLY VC",
+    "last_funding": 2.0,
+    "last_funding_date": "jun/2019",
+    "first_funding_date": "apr/2016",
+    "seed_year": 2016.0,
+    "ownerships": "Venture Capital;accelerator",
+    "tags": "brokerage;peer-to-peer;collaboration;insurtech distribution and brokerage;pet insurance;pandc insurance",
+    "b2b_or_b2c": "business;consumer",
+    "revenue_model": "marketplace & ecommerce",
+    "launch_date": "2016",
+    "closing_date": null,
+    "industries": "fintech;enterprise software",
+    "sub_industries": "insurance",
+    "delivery_method": null,
+    "growth_stage": "seed stage",
+    "yearly_growth_similarweb": -18.1757616135,
+    "alexa_growth_all_time": 190.0,
+    "employees_range": "'2-10",
+    "company_status": "operational",
+    "lists": "Challenger insurtechs around the globe;France Digitale Members (Startups)",
+    "technologies": "machine learning;artificial intelligence",
+    "tech_stack_data_by_predictleads": "cloudflare cdn;facebook;facebook pixel;google font api;google tag manager;webpack",
+    "trade_register_number": "493048888 (Paris, France)",
+    "sdgs": null,
+    "core_side_value": null,
+    "year_company_became_unicorn": null,
+    "year_company_became_future_unicorn": null,
+    "pic_number": null,
+    "last_kpi_date": "2021-03-23T01:49:47+0000",
+    "financials_currency": null,
+    "valuation": "8000000-12000000",
+    "valuation_currency": "EUR",
+    "valuation_in_eur": "8000000-12000000",
+    "valuation_in_usd": "8800000-13200000",
+    "valuation_date": "jun/2019",
+    "employees_by_year": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "13"
+      },
+      {
+        "year": "2021",
+        "count": "10"
+      }
+    ],
+    "employees_in_hq_country_by_year": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "9"
+      }
+    ],
+    "profit": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "ebitda": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "revenue": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "social_network_stats": {
+      "facebook_likes": null,
+      "twitter_followers": 1012.0,
+      "twitter_tweets": 1289.0,
+      "twitter_favorites": 3880.0,
+      "sw_traffic_6_month": 14912,
+      "sw_traffic_12_month": 16511
+    },
+    "other_links": {
+      "facebook": "https://www.facebook.com/otherwisefr",
+      "twitter": "https://twitter.com/otherwisefr",
+      "linkedin": "https://www.linkedin.com/company/otherwisefr",
+      "google_play_link": null,
+      "itunes_link": null,
+      "angellist": null
+    },
+    "app_download_stat": [
+      {
+        "type": "ios",
+        "latest": 0,
+        "month_6": 0,
+        "month_12": 0
+      },
+      {
+        "type": "android",
+        "latest": 0,
+        "month_6": 0,
+        "month_12": 0
+      }
+    ],
+    "traffic_countries": [],
+    "traffic_sources": [],
+    "rank_by_months": [
+      {
+        "type": "similarweb",
+        "month_3_rank": "top 25%",
+        "month_6_rank": "top half",
+        "month_12_rank": "top half"
+      },
+      {
+        "type": "employee",
+        "month_3_rank": "n/a",
+        "month_6_rank": "n/a",
+        "month_12_rank": "n/a"
+      },
+      {
+        "type": "app",
+        "month_3_rank": "n/a",
+        "month_6_rank": "n/a",
+        "month_12_rank": "n/a"
+      }
+    ],
+    "each_round_numbers": 3,
+    "each_round": [
+      {
+        "type": "EARLY VC",
+        "amount": "2",
+        "currency": "EUR",
+        "date": "jun/2019",
+        "investors": "360 Capital Partners++Mutualia"
+      },
+      {
+        "type": "EARLY VC",
+        "amount": "1.6",
+        "currency": "EUR",
+        "date": "mar/2017",
+        "investors": "Bpifrance++360 Capital Partners"
+      },
+      {
+        "type":  "n/a",
+        "amount": "n/a",
+        "currency": "USD",
+        "date": "apr/2016",
+        "investors": "Agoranov"
+      }
+    ],
+    "founders_info": [
+      {
+        "founders": "Raphael Berger",
+        "statuses": "current",
+        "genders": "male",
+        "is_serial": "no",
+        "backgrounds": "technical,it",
+        "universities": "n/a",
+        "company_experience": "ALINDA CAPITAL PARTNERS LIMITED,Otherwise Insurance,Orano",
+        "first_degree": "n/a",
+        "first_degree_year": "n/a",
+        "linkedin": "https://www.linkedin.com/in/raphaelberger/",
+        "founded_companies_total_funding": "3600000"
+      },
+      {
+        "founders": "Cécile Merine",
+        "statuses": "current",
+        "genders": "female",
+        "is_serial": "no",
+        "backgrounds": "business",
+        "universities": "ESSEC Business School",
+        "company_experience": "Swiss Life,Otherwise Insurance",
+        "first_degree": "n/a",
+        "first_degree_year": "n/a",
+        "linkedin": "https://www.linkedin.com/in/cecilemerine/",
+        "founded_companies_total_funding": "3600000"
+      }
+    ],
+    "finance_scoring": {
+      "rating_last_seed": 0,
+      "rating_seed_series": 0,
+      "rating_seed_amount": 10
+    },
+    "market_scoring": {
+      "rating_internet_traffic": 0,
+      "rating_internet_resources": 5,
+      "rating_sector": 10.0
+    },
+    "team_scoring": {
+      "rating_founders_diploma": 10.0,
+      "rating_team": 0
+    },
+    "simple_scoring": {
+      "funding_growth": 0.55556,
+      "traffic_growth": 0.90316,
+      "valuation_in_eur_avg": 10000000.0,
+      "score": 1.46872,
+      "compared_value_funding_grow": 487,
+      "compared_value_traffic_growth": 2058,
+      "compared_valuation": 2146
+    },
+    "created_at": "2022-03-29",
+    "updated_at": "2022-03-29"
+  },
+  {
+    "dealroom_id": 20045,
+    "name": "Octoplus",
+    "profile_url": "https://app.dealroom.co/companies/octoplus",
+    "website": "https://octoplus.ch/",
+    "logo": "https://s3-eu-west-1.amazonaws.com/dealroom-images/ee/MTAwOjEwMDpjb21wYW55QHMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tL2RlYWxyb29tLWltYWdlcy8yMDE1LzA1LzA0L2U0N2Q2NDBkYjczNGNmYWQxMTliZTIxYWFiZTYxN2Rl.jpg",
+    "tagline": "Mobile payments for restaurants in France",
+    "address": "33, Rue du Temple, 75004 Paris, France",
+    "hq_region": "Europe",
+    "hq_country": "France",
+    "hq_city": "Paris",
+    "latitude": 48.8593207,
+    "longitude": 2.3537832,
+    "locations": "Europe;France;Paris;Île-de-France",
+    "custom_hq_regions": "Region Parisienne;New Palo Alto;Entente Cordiale;Greater Paris (Grand Paris);Europe incl Israel;Europe;European Union + UK;EU27;European Union",
+    "founding_location": null,
+    "investors": "Kima Ventures",
+    "each_investors_types": "venture_capital",
+    "lead_investors": null,
+    "total_funding": 0.1,
+    "last_round": "SEED",
+    "last_funding": 0.1,
+    "last_funding_date": "aug/2011",
+    "first_funding_date": "aug/2011",
+    "seed_year": 2011.0,
+    "ownerships": "Angel;Venture Capital",
+    "tags": "payment",
+    "b2b_or_b2c": "business",
+    "revenue_model": null,
+    "launch_date": "2014, September",
+    "closing_date": null,
+    "industries": "fintech",
+    "sub_industries": "payments",
+    "delivery_method": "online",
+    "growth_stage": "seed stage",
+    "yearly_growth_similarweb": -55.2631578947,
+    "alexa_growth_all_time": null,
+    "employees_range": "'2-10",
+    "company_status": "operational",
+    "lists": null,
+    "technologies": null,
+    "tech_stack_data_by_predictleads": "apache;facebook;facebook pixel;google analytics;google pagespeed;google tag manager;hotjar;hubspot;piwik;polyfill;prism;vue.js;webpack",
+    "trade_register_number": "849857255 (Paris, France)",
+    "sdgs": null,
+    "core_side_value": null,
+    "year_company_became_unicorn": null,
+    "year_company_became_future_unicorn": null,
+    "pic_number": null,
+    "last_kpi_date": "2020-09-30T15:11:12+0100",
+    "financials_currency": null,
+    "valuation": "400000-600000",
+    "valuation_currency": "EUR",
+    "valuation_in_eur": "400000-600000",
+    "valuation_in_usd": "440000-660000",
+    "valuation_date": "aug/2011",
+    "employees_by_year": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "14"
+      },
+      {
+        "year": "2020",
+        "count": "15"
+      },
+      {
+        "year": "2021",
+        "count": "15"
+      }
+    ],
+    "employees_in_hq_country_by_year": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      }
+    ],
+    "profit": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "ebitda": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "revenue": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "social_network_stats": {
+      "facebook_likes": null,
+      "twitter_followers": 2409.0,
+      "twitter_tweets": 1016.0,
+      "twitter_favorites": 1468.0,
+      "sw_traffic_6_month": 2316,
+      "sw_traffic_12_month": 2850
+    },
+    "other_links": {
+      "facebook": null,
+      "twitter": "https://twitter.com/888theband",
+      "linkedin": "https://www.linkedin.com/company/octoplusgroup",
+      "google_play_link": null,
+      "itunes_link": null,
+      "angellist": "https://angel.co/octoplus-restoflash"
+    },
+    "app_download_stat": [
+      {
+        "type": "ios",
+        "latest": 0,
+        "month_6": 0,
+        "month_12": 0
+      },
+      {
+        "type": "android",
+        "latest": 0,
+        "month_6": 0,
+        "month_12": 0
+      }
+    ],
+    "traffic_countries": [
+      {
+        "name": "France",
+        "value": 82
+      },
+      {
+        "name": "Morocco",
+        "value": 18
+      }
+    ],
+    "traffic_sources": [
+      {
+        "type": "Search",
+        "value": 100
+      },
+      {
+        "type": "Social",
+        "value": 0
+      },
+      {
+        "type": "Mail",
+        "value": 0
+      },
+      {
+        "type": "Paid Referrals",
+        "value": 0
+      },
+      {
+        "type": "Direct",
+        "value": 0
+      },
+      {
+        "type": "Referrals",
+        "value": 0
+      }
+    ],
+    "rank_by_months": [
+      {
+        "type": "similarweb",
+        "month_3_rank": "n/a",
+        "month_6_rank": "top half",
+        "month_12_rank": "n/a"
+      },
+      {
+        "type": "employee",
+        "month_3_rank": "n/a",
+        "month_6_rank": "n/a",
+        "month_12_rank": "n/a"
+      },
+      {
+        "type": "app",
+        "month_3_rank": "n/a",
+        "month_6_rank": "n/a",
+        "month_12_rank": "n/a"
+      }
+    ],
+    "each_round_numbers": 1,
+    "each_round": [
+      {
+        "type": "SEED",
+        "amount": "0.1",
+        "currency": "EUR",
+        "date": "aug/2011",
+        "investors": "Kima Ventures"
+      }
+    ],
+    "founders_info": [
+      {
+        "founders": "David Maro",
+        "statuses": "current",
+        "genders": "male",
+        "is_serial": "no"
+      }
+    ],
+    "finance_scoring": {
+      "rating_last_seed": 0,
+      "rating_seed_series": 0,
+      "rating_seed_amount": 5
+    },
+    "market_scoring": {
+      "rating_internet_traffic": 0,
+      "rating_internet_resources": 5,
+      "rating_sector": 10
+    },
+    "team_scoring": {},
+    "simple_scoring": {
+      "funding_growth": 1.0,
+      "traffic_growth": 0.81263,
+      "valuation_in_eur_avg": 500000.0,
+      "score": 1.81313,
+      "compared_value_funding_grow": 1258,
+      "compared_value_traffic_growth": 1943,
+      "compared_valuation": 519
+    },
+    "created_at": "2022-03-29",
+    "updated_at": "2022-03-29"
+  },
+  {
+    "dealroom_id": 1447302,
+    "name": "Equimov",
+    "profile_url": "https://app.dealroom.co/companies/equimov",
+    "website": "https://www.equimov.fr/fr",
+    "logo": "https://s3-eu-west-1.amazonaws.com/dealroom-images/fe/MTAwOjEwMDpjb21wYW55QHMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tL2RlYWxyb29tLWltYWdlcy8yMDE4LzA4LzMxLzQyOGNjM2YxYTA5NWEyMTU1MmNiNThhZTI5OTdmMDg0.jpg",
+    "tagline": "Supporting the equestrian structures by giving them more visibility",
+    "address": "Route de Randan, 3800 Biozat, France",
+    "hq_region": "Europe",
+    "hq_country": "France",
+    "hq_city": "Biozat",
+    "latitude": 46.0717775,
+    "longitude": 3.2779491,
+    "locations": "Europe;France;Auvergne-Rhône-Alpes;Biozat",
+    "custom_hq_regions": "Europe incl Israel;Europe;European Union + UK;EU27;European Union",
+    "founding_location": null,
+    "investors": "BPI Group,;Incubateur Paris And Co",
+    "each_investors_types": "corporate;accelerator",
+    "lead_investors": null,
+    "total_funding": 0.75,
+    "last_round": null,
+    "last_funding": 0.75,
+    "last_funding_date": "aug/2018",
+    "first_funding_date": "aug/2018",
+    "seed_year": null,
+    "ownerships": "accelerator",
+    "tags": "pension;personal finance;fitness;sport facilities;referencing sport programs;tourism",
+    "b2b_or_b2c": "consumer",
+    "revenue_model": null,
+    "launch_date": "2016, April",
+    "closing_date": null,
+    "industries": "fintech;sports",
+    "sub_industries": "sporting equipment",
+    "delivery_method": null,
+    "growth_stage": "seed stage",
+    "yearly_growth_similarweb": null,
+    "alexa_growth_all_time": null,
+    "employees_range": "'1",
+    "company_status": "operational",
+    "lists": null,
+    "technologies": null,
+    "tech_stack_data_by_predictleads": "bootstrap;doubleclick for publishers (dfp);facebook;font awesome;google analytics;google font api;google maps;google tag manager;google plus;gravatar;handlebars;lightbox;mediaelement.js;moment.js;mysql;nginx;php;slick;stripe;typekit;twitter emoji (twemoji);twitter bootstrap;ubuntu;woocommerce;wordpress;jsdelivr;jquery;jquery migrate",
+    "trade_register_number": "821892221 (Biozat, France)",
+    "sdgs": null,
+    "core_side_value": null,
+    "year_company_became_unicorn": null,
+    "year_company_became_future_unicorn": null,
+    "pic_number": null,
+    "last_kpi_date": "2021-05-08T12:01:20+0100",
+    "financials_currency": "EUR",
+    "valuation": null,
+    "valuation_currency": null,
+    "valuation_in_eur": null,
+    "valuation_in_usd": null,
+    "valuation_date": null,
+    "employees_by_year": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "8"
+      },
+      {
+        "year": "2020",
+        "count": "4"
+      },
+      {
+        "year": "2021",
+        "count": "4"
+      }
+    ],
+    "employees_in_hq_country_by_year": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "4"
+      },
+      {
+        "year": "2021",
+        "count": "3"
+      }
+    ],
+    "profit": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "ebitda": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "revenue": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "100000"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "social_network_stats": {
+      "facebook_likes": null,
+      "twitter_followers": 255.0,
+      "twitter_tweets": 109.0,
+      "twitter_favorites": 79.0,
+      "sw_traffic_6_month": 20,
+      "sw_traffic_12_month": 328
+    },
+    "other_links": {
+      "facebook": null,
+      "twitter": "https://twitter.com/equimovfr",
+      "linkedin": "https://www.linkedin.com/company/equimov",
+      "google_play_link": null,
+      "itunes_link": null,
+      "angellist": null
+    },
+    "app_download_stat": [
+      {
+        "type": "ios",
+        "latest": 0,
+        "month_6": 0,
+        "month_12": 0
+      },
+      {
+        "type": "android",
+        "latest": 0,
+        "month_6": 0,
+        "month_12": 0
+      }
+    ],
+    "traffic_countries": [],
+    "traffic_sources": [],
+    "rank_by_months": [
+      {
+        "type": "similarweb",
+        "month_3_rank": "top 25%",
+        "month_6_rank": "n/a",
+        "month_12_rank": "top 5%"
+      },
+      {
+        "type": "employee",
+        "month_3_rank": "n/a",
+        "month_6_rank": "n/a",
+        "month_12_rank": "n/a"
+      },
+      {
+        "type": "app",
+        "month_3_rank": "n/a",
+        "month_6_rank": "n/a",
+        "month_12_rank": "n/a"
+      }
+    ],
+    "each_round_numbers": 1,
+    "each_round": [],
+    "founders_info": [],
+    "finance_scoring": {
+      "rating_last_seed": 0,
+      "rating_seed_series": 0,
+      "rating_seed_amount": 5
+    },
+    "market_scoring": {
+      "rating_internet_traffic": 0,
+      "rating_internet_resources": 5,
+      "rating_sector": 5.0
+    },
+    "team_scoring": {},
+    "simple_scoring": {
+      "funding_growth": 1.0,
+      "traffic_growth": 0.06098,
+      "valuation_in_eur_avg": 0.0,
+      "score": 1.06098,
+      "compared_value_funding_grow": 1259,
+      "compared_value_traffic_growth": 1108,
+      "compared_valuation": 0
+    },
+    "created_at": "2022-03-29",
+    "updated_at": "2022-03-29"
+  },
+  {
+    "dealroom_id": 27414,
+    "name": "Melijoe",
+    "profile_url": "https://app.dealroom.co/companies/melijoe_com",
+    "website": "http://www.melijoe.com",
+    "logo": "https://s3-eu-west-1.amazonaws.com/dealroom-images/32/MTAwOjEwMDpjb21wYW55QHMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tL2RlYWxyb29tLWltYWdlcy8yMDIxLzEyLzE1LzBkYjEyNzYxYzQwYWY2MWIwOGU0NzJjMTA0OTE1NTBk.png",
+    "tagline": "Children's clothing, kids & baby designer clothes",
+    "address": "Paris, France",
+    "hq_region": "Europe",
+    "hq_country": "France",
+    "hq_city": "Paris",
+    "latitude": 48.856614,
+    "longitude": 2.352222,
+    "locations": "Europe;France;Paris;Île-de-France",
+    "custom_hq_regions": "Region Parisienne;New Palo Alto;Entente Cordiale;Greater Paris (Grand Paris);Europe incl Israel;Europe;European Union + UK;EU27;European Union",
+    "founding_location": null,
+    "investors": "GIMV;CM-CIC Capital Prive",
+    "each_investors_types": "private_equity;venture_capital",
+    "lead_investors": null,
+    "total_funding": 9.0,
+    "last_round": "EARLY VC",
+    "last_funding": 9.0,
+    "last_funding_date": "nov/2014",
+    "first_funding_date": "jun/2011",
+    "seed_year": null,
+    "ownerships": null,
+    "tags": "retail;children;clothes;baby",
+    "b2b_or_b2c": "consumer",
+    "revenue_model": "marketplace & ecommerce",
+    "launch_date": "2007",
+    "closing_date": null,
+    "industries": "fashion;kids",
+    "sub_industries": "apparel",
+    "delivery_method": "online",
+    "growth_stage": "early growth stage",
+    "yearly_growth_similarweb": -36.7627700607,
+    "alexa_growth_all_time": 313.0,
+    "employees_range": "'11-50",
+    "company_status": "operational",
+    "lists": null,
+    "technologies": null,
+    "tech_stack_data_by_predictleads": "appnexus;cloudflare cdn;criteo;facebook;facebook pixel;fingerprintjs;google analytics;google analytics enhanced ecommerce;google tag manager;google plus;hotjar;list.js;loggly;microsoft asp.net;modernizr;riskified;ruby;ruby on rails;yandex.metrika;zendesk;jquery;prettyphoto",
+    "trade_register_number": null,
+    "sdgs": null,
+    "core_side_value": null,
+    "year_company_became_unicorn": null,
+    "year_company_became_future_unicorn": null,
+    "pic_number": null,
+    "last_kpi_date": "2020-10-30T11:21:17+0000",
+    "financials_currency": null,
+    "valuation": "36000000-54000000",
+    "valuation_currency": "EUR",
+    "valuation_in_eur": "36000000-54000000",
+    "valuation_in_usd": "39600000-59400000",
+    "valuation_date": "nov/2014",
+    "employees_by_year": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "29"
+      },
+      {
+        "year": "2021",
+        "count": "20"
+      }
+    ],
+    "employees_in_hq_country_by_year": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "28"
+      },
+      {
+        "year": "2021",
+        "count": "16"
+      }
+    ],
+    "profit": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "ebitda": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "revenue": [
+      {
+        "year": "2016",
+        "count": "n/a"
+      },
+      {
+        "year": "2017",
+        "count": "n/a"
+      },
+      {
+        "year": "2018",
+        "count": "n/a"
+      },
+      {
+        "year": "2019",
+        "count": "n/a"
+      },
+      {
+        "year": "2020",
+        "count": "n/a"
+      },
+      {
+        "year": "2021",
+        "count": "n/a"
+      },
+      {
+        "year": "2022",
+        "count": "n/a"
+      }
+    ],
+    "social_network_stats": {
+      "facebook_likes": null,
+      "twitter_followers": 690.0,
+      "twitter_tweets": 473.0,
+      "twitter_favorites": 450.0,
+      "sw_traffic_6_month": 258788,
+      "sw_traffic_12_month": 434532
+    },
+    "other_links": {
+      "facebook": "https://www.facebook.com/melijoefashion",
+      "twitter": "https://twitter.com/melijoe_fashion",
+      "linkedin": "https://www.linkedin.com/company/melijoe/",
+      "google_play_link": null,
+      "itunes_link": null,
+      "angellist": null
+    },
+    "app_download_stat": [
+      {
+        "type": "ios",
+        "latest": 0,
+        "month_6": 0,
+        "month_12": 0
+      },
+      {
+        "type": "android",
+        "latest": 0,
+        "month_6": 0,
+        "month_12": 0
+      }
+    ],
+    "traffic_countries": [
+      {
+        "name": "France",
+        "value": 33
+      },
+      {
+        "name": "Russia",
+        "value": 19
+      },
+      {
+        "name": "United States",
+        "value": 12
+      },
+      {
+        "name": "United Kingdom",
+        "value": 5
+      }
+    ],
+    "traffic_sources": [
+      {
+        "type": "Search",
+        "value": 43
+      },
+      {
+        "type": "Social",
+        "value": 2
+      },
+      {
+        "type": "Mail",
+        "value": 3
+      },
+      {
+        "type": "Paid Referrals",
+        "value": 1
+      },
+      {
+        "type": "Direct",
+        "value": 26
+      },
+      {
+        "type": "Referrals",
+        "value": 26
+      }
+    ],
+    "rank_by_months": [
+      {
+        "type": "similarweb",
+        "month_3_rank": "top half",
+        "month_6_rank": "top 25%",
+        "month_12_rank": "n/a"
+      },
+      {
+        "type": "employee",
+        "month_3_rank": "n/a",
+        "month_6_rank": "n/a",
+        "month_12_rank": "n/a"
+      },
+      {
+        "type": "app",
+        "month_3_rank": "n/a",
+        "month_6_rank": "n/a",
+        "month_12_rank": "n/a"
+      }
+    ],
+    "each_round_numbers": 2,
+    "each_round": [
+      {
+        "type": "SEED",
+        "amount": "9",
+        "currency": "EUR",
+        "date": "nov/2014",
+        "investors": "New Tech"
+      },
+      {
+        "type": "EARLY VC",
+        "amount": "3.7",
+        "currency": "EUR",
+        "date": "nov/2013",
+        "investors": "Mock for test"
+      },
+      {
+        "type": "EARLY VC",
+        "amount": "3.5",
+        "currency": "EUR",
+        "date": "jun/2011",
+        "investors": "CM-CIC Capital Prive"
+      }
+    ],
+    "founders_info": [
+      {
+        "founders": "Nathalie GENTY",
+        "statuses": "current",
+        "genders": "female",
+        "is_serial": "no"
+      }
+    ],
+    "finance_scoring": {
+      "rating_last_seed": 0,
+      "rating_seed_series": 0,
+      "rating_seed_amount": 5
+    },
+    "market_scoring": {
+      "rating_internet_traffic": 10,
+      "rating_internet_resources": 5,
+      "rating_sector": 5.0
+    },
+    "team_scoring": {},
+    "simple_scoring": {
+      "funding_growth": 1.0,
+      "traffic_growth": 0.59556,
+      "valuation_in_eur_avg": 45000000.0,
+      "score": 1.6405599999999998,
+      "compared_value_funding_grow": 1286,
+      "compared_value_traffic_growth": 1669,
+      "compared_valuation": 3270
+    },
+    "created_at": "2022-03-29",
+    "updated_at": "2022-03-29"
+  }
+]
