@@ -15,4 +15,27 @@ class GameModel(models.Model):
     other_sales = models.FloatField()
     global_sales = models.FloatField()
 
+    # def __str__(self):
+    #     return f"{self.id}_{self.name}"
+
+
+class GamerLibraryModel(models.Model):
+    """Библиотека игр"""
+    game = models.ManyToManyField("GameModel")  # M2M к играм
+    gamer = models.ForeignKey("GamerModel", on_delete=models.DO_NOTHING)  # отношение к игроку(один игрок может иметь много игр)
+    size = models.IntegerField()  # размер нашей библиотеки
+
+    def __str__(self):
+        return f"{self.id}_{self.gamer.nickname}"
+
+
+class GamerModel(models.Model):
+    """Модель нашего игрока"""
+    nickname = models.CharField(max_length=64)
+    email = models.EmailField()
+
+    # def __str__(self):
+    #     return f"{self.id}_{self.nickname}"
+
+
 
