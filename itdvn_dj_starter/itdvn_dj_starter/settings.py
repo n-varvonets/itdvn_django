@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'lesson_7',
     'lesson_8',
     'lesson_9',
+    'lesson_10_drf_2',
 ]
 
 REST_FRAMEWORK = {

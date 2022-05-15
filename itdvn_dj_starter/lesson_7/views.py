@@ -113,7 +113,7 @@ class ModelFormClientView(FormView):
     form_class = FormModelClient
     template_name = 'form_page.html'
     success_url = reverse_lazy('modelform')  # будем перенаправлять на ту же страницу на которой отправили. \
-    # name='modelform' из urls.py
+    # name='modelform' из my_drf_urls.py
 
     # данная форма даже сохранеет файлы в дир что указана  MEDIA_ROOT
 

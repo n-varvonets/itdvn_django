@@ -24,5 +24,6 @@ urlpatterns = [
     path('lesson_7/', include('lesson_7.urls')),
     path('lesson_8/', include('lesson_8.urls')),
     path('lesson_9/', include('lesson_9.urls')),
+    path('lesson_10_drf_2/', include('lesson_10_drf_2.my_drf_urls')),
     path('admin/', admin.site.urls),
 ]
