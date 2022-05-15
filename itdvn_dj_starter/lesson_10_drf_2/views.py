@@ -1,6 +1,6 @@
 # 1.)набор внешних модулей для реализации FunctionBasedView
-from rest_framework.response import Response
 from rest_framework.decorators import api_view
+from rest_framework.response import Response
 
 # 2) набор внешних модулей для реализации APIView
 from rest_framework.views import APIView
@@ -15,8 +15,45 @@ from rest_framework.generics import get_object_or_404
 # наше представление подходит под стандартный шаблон CRUD(l)
 from rest_framework.generics import CreateAPIView, RetrieveAPIView, RetrieveUpdateAPIView
 
+# 0) набор внешних модулей для реализации Регистрации, Аутентификации и авторизации пользователя
+from django.views.decorators.csrf import csrf_exempt
+from rest_framework.decorators import permission_classes
+from rest_framework.permissions import AllowAny
+from django.contrib.auth import authenticate
+from rest_framework.authtoken.models import Token
+from rest_framework.status import HTTP_200_OK
+from lesson_10_drf_2.serializers import UserSerializer  # импортируем модель-сериализтор для регистрации юзера
+
+print('~~~ 0.)Регистрации, Аутентификации и авторизации пользователей ~~~~')
+# 1) у нас должен быть url которому пользователь сможет создать профиль.(регистрация);
+# 2) Предоставить нашему пользователю url, по которому он сможет создать сбе токен(логин)
+
+
+@csrf_exempt  # декоратор используется для того что бы проверять csrf_token
+@api_view(['POST'])  # указываем что функция логина только может вызывать метод пост
+@permission_classes((AllowAny,))
+def user_login(request):
+    username = request.data.get('username')
+    password = request.data.get('password')
+    if username is None or password is None:
+        return Response({'error': 'Please, input username and password'})
+    user = authenticate(username=username, password=password)  # авторизуем нашего пользователя в системе
+    if not user:
+        return Response({'error': 'Invalid data. Please, check correctness of data'})
+
+    token, _ = Token.objects.get_or_create(user=user)  # джанго с коробки предоставлять таблицу/модель токенов(authtoken_token), \
+    # в которую будем пробрасывать новый токен прикрепленного к конкретному пользователю(auth_user)
+    return Response({'token': token.key}, status=HTTP_200_OK)
+
+
+class CreateUser(CreateAPIView):  # используем обычный generic для создания новой записи
+    permission_classes = (AllowAny,)  # в permission_classes нужно предать итерабильный обьект, в том числе \
+    # можно и list, но сделал как tuple
+    serializer_class = UserSerializer  # передаем сериализатор по модели которого будем создавать нового Authed user в базе
+
 
 print('~~~ 1.) Пример реализации представления FunctionBasedView ~~~~')
+@csrf_exempt
 # @api_view()  # если использовать без параметров, тогда доступен будет только GET
 @api_view(['GET', 'POST'])  # но есть возможность указать доп методы. На самой странице появится возможность добавить запись \
 # и если это сделать, то в request.data будут отправленные данные, при get(): request.data={}

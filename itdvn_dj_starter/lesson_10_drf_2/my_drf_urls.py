@@ -21,5 +21,9 @@ urlpatterns = [
     path('generic_retrieve/<int:pk>', views.MyRetrieveGenericAPIView.as_view(), name='generic_retrieve'),
     path('generic_retrieve_update/<int:pk>', views.MyRetrieveUpdateGenericAPIView.as_view(), name='generic_retrieve_update'),
 
+    # регистрация и аутентификация
+    path('user_login/', views.user_login, name='user_login'),
+    path('registration/', views.CreateUser.as_view(), name='registration'),
+
 ]
 

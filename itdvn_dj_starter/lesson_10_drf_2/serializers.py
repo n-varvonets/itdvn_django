@@ -16,10 +16,15 @@ class GamerModelSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
+    """
+    Сериалайзер, который создает учетную запись
+    Модель User и таблица в бд auth_user
+    """
     class Meta:
         model = User
         fields = ('username', 'password')
-        extra_kwargs = {'password': {'write_only': True}}
+        extra_kwargs = {'password': {'write_only': True}}  # роль можно только записать при создании и в обмене мы дадим \
+        # ему токен. Никак прочитать мы его не сможем.
 
     def create(self, validated_data):
         password = validated_data.pop('password')

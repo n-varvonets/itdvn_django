@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'durationwidget',
     'rest_framework',
+    'rest_framework.authtoken',  # после добавления приложения для аутентификации необходимо сделать миграции
     'lesson_1',
     'lesson_2',
     'lesson_3',
@@ -51,8 +52,14 @@ INSTALLED_APPS = [
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 10
-}  # 10ть записей на одной странице
+    'PAGE_SIZE': 10,  # 10ть записей на одной странице
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+            'rest_framework.authentication.TokenAuthentication',
+        ],
+    'DEFAULT_PERMISSION_CLASSES': [
+            'rest_framework.permissions.IsAuthenticated',
+        ]
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
