@@ -21,25 +21,31 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = os.environ['SECRET_KEY']  # первый подходи
-SECRET_KEY = os.getenv('SECRET_KEY')  # второй подход как в prod_env
+# SECRET_KEY = os.getenv('SECRET_KEY')  # второй подход как в prod_env
+SECRET_KEY = 'django-insecure-a2(e&8(c_8^sj8i-xtpynye)y+!lr#4(*p)kqq$b(a(@+98jsk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True  # для разработки
-DEBUG = False  # для деплоя
+DEBUG = True  # для разработки
+# DEBUG = False  # для деплоя
 
 ALLOWED_HOSTS = ['*']  # говорим доступные ip
 
-SESSION_COOKIE_SECURE = True  # указываем что мы будем использовать защищенные куки
+# SESSION_COOKIE_SECURE = True  # указываем что мы будем использовать защищенные куки
+SESSION_COOKIE_SECURE = False  # указываем что мы будем использовать защищенные куки
 
 SECURE_HSTS_SECONDS = 60  # ограничиваем способность браузеру получать данные раз в 60 секунд
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_HSTS_PRELOAD = True
+SECURE_HSTS_INCLUDE_SUBDOMAINS = False
+SECURE_HSTS_PRELOAD = False
 
-SECURE_REFERRER_POLICY = 'no-referrer'
+# SECURE_REFERRER_POLICY = 'no-referrer'
 
-SECURE_SSL_REDIRECT = True
+# SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
 
-CSRF_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = False
 
 # комнада для проврки готовности деплоя на сервер
 # python manage.py check --deploy
@@ -112,16 +118,28 @@ WSGI_APPLICATION = 'itdvn_dj_starter.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         # 'ENGINE': 'django.db.backends.sqlite3',  # используется по дефолту sqlite3, мы же изменим на постгрес
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         # 'NAME': BASE_DIR / 'db.sqlite3',  # по дефолту sqlite3 указываем местоположение файла нашей бд
+#         'NAME': os.getenv('DB_NAME'),  # в моем случае я укажу название сервера моей бд
+#         'USER': os.getenv('DB_USER'),
+#         'PASSWORD': os.getenv('DB_PASSWORD'),
+#         'HOST': os.getenv('DB_HOST'),
+#         'PORT': os.getenv('DB_PORT')
+#     }
+# }
 DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',  # используется по дефолту sqlite3, мы же изменим на постгрес
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         # 'NAME': BASE_DIR / 'db.sqlite3',  # по дефолту sqlite3 указываем местоположение файла нашей бд
-        'NAME': os.getenv('DB_NAME'),  # в моем случае я укажу название сервера моей бд
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT')
+        'NAME': 'db_itdvn',  # в моем случае я укажу название сервера моей бд
+        'USER': 'nick_itdvn',
+        'PASSWORD': '1000g0001',
+        'HOST': '127.0.0.1',
+        'PORT': '5432'
     }
 }
 
@@ -163,11 +181,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/home/nick/PycharmProjects/itdvn_django/itdvn_dj_starter/lesson_4/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, "/static")  # при деплое иуда будут отправляться все статические \
+# STATIC_ROOT = os.path.join(BASE_DIR, "static/")  # при деплое иуда будут отправляться все статические \
 # файлы + надо будет сделать collectstatic
 MEDIA_ROOT = '/home/nick/PycharmProjects/itdvn_django/itdvn_dj_starter/lesson_5/static/tmp/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
