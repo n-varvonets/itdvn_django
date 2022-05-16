@@ -1,0 +1,7 @@
+export SECRET_KEY = 'django-insecure-a2(e&8(c_8^sj8i-xtpynye)y+!lr#4(*p)kqq$b(a(@+98jsk'
+export DB_NAME = 'db_itdvn'
+export DB_USER = 'nick_itdvn'
+export DB_PASSWORD = '1000g0001'
+export DB_HOST = '127.0.0.1'
+export DB_PORT = '5432'
+
