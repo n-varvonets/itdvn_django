@@ -132,16 +132,24 @@ WSGI_APPLICATION = 'itdvn_dj_starter.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',  # используется по дефолту sqlite3, мы же изменим на постгрес
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        # 'NAME': BASE_DIR / 'db.sqlite3',  # по дефолту sqlite3 указываем местоположение файла нашей бд
-        'NAME': 'db_itdvn',  # в моем случае я укажу название сервера моей бд
-        'USER': 'nick_itdvn',
-        'PASSWORD': '1000g0001',
-        'HOST': '127.0.0.1',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.sqlite3',  # используется по дефолту sqlite3, мы же изменим на постгрес
+        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': BASE_DIR / 'db.sqlite3',  # по дефолту sqlite3 указываем местоположение файла нашей бд
+        # 'NAME': 'db_itdvn',  # в моем случае я укажу название сервера моей бд
+        # 'USER': 'nick_itdvn',
+        # 'PASSWORD': '1000g0001',
+        # 'HOST': '127.0.0.1',
+        # 'PORT': '5432'
     }
 }
+
+# На AWS psql жет быть платным, поэтому на первое время будем применять sql3. Но нам нужно дать разрешение на использования бд \
+# - 1)в директории где хранится файл скл3 нужно прописать:
+# chmod 664 db.sqlite3
+# - 2)в той же дир даем разрешение использваоть скл3 нашим другим модулям использовать
+# sudo chown :www-data db.sqlite3
+# - 3)нужно выйти на директрию, где колнили с гита. т.е. к самому проекту нужно дать разрешение(где есть .git)
+# sudo chown :www-data itdvn_dj_starter/
 
 
 # Password validation
